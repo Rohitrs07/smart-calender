@@ -12,16 +12,27 @@
 }
 
 .react-calendar {
-  width: 600px;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
 }
 
-.react-calendar__tile {
- 
+ .react-calendar__tile{
+  background: white;
 }
 
+/*
+.react-calendar__tile:hover{
+  background-color: #FF9148;
+}
+*/
+
+.react-calendar__tile--active {
+ background: #FF6754;
+ border-radius: 100%;
+} 
+
+/*
 .react-calendar__navigation{
-
-}
+background: linear-gradient(to left,#FF6754, #FF9148);
+} */
