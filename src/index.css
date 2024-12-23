@@ -11,28 +11,18 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.react-calendar {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
+.today-bg{
+  background: linear-gradient(90deg, #FF6754, #FF9148);
 }
 
- .react-calendar__tile{
-  background: white;
+.today-text{
+  color: #ff8248;
 }
 
-/*
-.react-calendar__tile:hover{
-  background-color: #FF9148;
+.upcoming-bg{
+  background: linear-gradient(90deg, #7690FF, #4073C4);
 }
-*/
 
-.react-calendar__tile--active {
- background: #FF6754;
- border-radius: 100%;
-} 
-
-/*
-.react-calendar__navigation{
-background: linear-gradient(to left,#FF6754, #FF9148);
-} */
+.upcoming-text{
+  color: #4073C4;
+}
